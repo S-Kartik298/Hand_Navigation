@@ -72,7 +72,7 @@ while cap.isOpened():
                     last_trigger_time = current_time
                 elif total_fingers == 3:
                     status_text = "Opening Gemini..."
-                    webbrowser.open("https://google.com")
+                    webbrowser.open("https://gemini.google.com")
                     last_trigger_time = current_time
                 elif total_fingers == 4:
                     status_text = "Opening Gmail..."
